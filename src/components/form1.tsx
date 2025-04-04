@@ -29,7 +29,7 @@ const Form1 = () => {
                 </select>
 
                 <p><b>Is There Any Additional Info You Have?</b></p>
-                <textarea rows={4} cols={50} id="addinfo" className="border p-1"></textarea><br />
+                <textarea rows={4} cols={50} id="addinfo" className="text"></textarea><br />
 
                 <input type="submit" value="Submit" id="submit" />
             </form>

@@ -2,7 +2,7 @@ const List1 = () => {
 
     return (
         <div>
-            <h3 className="text-lg font-bold">Top Five Most Supported Teams</h3>
+            <h2 className="caption">Top Five Most Supported Teams</h2>
             <ol className="List">
                 <li>Real Madrid</li>
                 <li>FC Barcelona</li>
