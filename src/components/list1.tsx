@@ -1,8 +1,17 @@
 const List1 = () => {
 
     return (
-        <h1>CS3733-D25 Team 7: Soccer and Lifting</h1>
-    )
-}
+        <div>
+            <h3 className="text-lg font-bold">Top Five Most Supported Teams</h3>
+            <ol className="List">
+                <li>Real Madrid</li>
+                <li>FC Barcelona</li>
+                <li>Manchester United</li>
+                <li>PSG</li>
+                <li>Juventus</li>
+            </ol>
+        </div>
+    );
+};
 
 export default List1;

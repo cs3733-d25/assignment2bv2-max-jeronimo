@@ -1,8 +1,8 @@
-const Intro = () => {
+const Intro = ({ name1, name2 }: { name1: string; name2: string }) => {
 
     return (
-        <h1>CS3733-D25 Team 7: Soccer and Lifting</h1>
-    )
+        <p className="text-lg">Hello! We are {name1} and {name2}. Welcome to our page about our hobbies!</p>
+    );
 }
 
 export default Intro;
