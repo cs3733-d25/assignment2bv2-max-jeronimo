@@ -2,7 +2,7 @@ const Form1 = () => {
 
     return (
         <div>
-            <h3 className="text-lg font-bold">Getting to Know You!</h3>
+            <h2 className="caption">Getting to Know You!</h2>
             <form className="form">
                 <label htmlFor="fullname">Enter Your Full Name:</label>
                 <input type="text" id="fullname" className="border p-1" />

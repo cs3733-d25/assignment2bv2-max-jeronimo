@@ -1,4 +1,5 @@
 import './App.css'
+import './list.css'
 import Title from './components/title.tsx';
 import Hobby1 from './components/hobby1';
 import Hobby2 from './components/hobby2';

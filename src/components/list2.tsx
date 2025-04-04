@@ -1,8 +1,19 @@
 const List2 = () => {
 
     return (
-        <h1>CS3733-D25 Team 7: Soccer and Lifting</h1>
-    )
-}
+        <div>
+            <h2 className="caption">This is a list of my Favorite Exercises:</h2>
+            <ol className="List">
+                <div className="ListText">
+                    <li>Bench Press</li>
+                    <li>Bicep Curl</li>
+                    <li>Pull-Up</li>
+                    <li>Tricep Dips</li>
+                    <li>Shoulder Flys</li>
+                </div>
+            </ol>
+        </div>
+    );
+};
 
 export default List2;
